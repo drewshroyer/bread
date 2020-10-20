@@ -1,6 +1,6 @@
 import React from 'react'
 import InternalNavbarContainer from "../nav/navbar_container";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "./calc.css";
 
 class Calc extends React.Component {
@@ -31,7 +31,7 @@ class Calc extends React.Component {
         return(
             <div className="user-home-container">
                 <div className="left-user-home-container">
-                <Link to="/home" className="user-home-internal-title">BREAD</Link>
+                {/* <Link to="/home" className="user-home-internal-title">BREAD</Link> */}
                 </div>
                 <div className="right-user-home-container">
                     <InternalNavbarContainer />
