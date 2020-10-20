@@ -36,7 +36,8 @@ class Calc extends React.Component {
                 <div className="right-user-home-container">
                     <InternalNavbarContainer />
                     <div id="calc-container">
-                        <h1>Tip Calculator</h1>
+                        
+                        <div className="top-title-banner">Tip Calculator</div>
                         <div id="tip-inputs-container">
                             <label>Expense Cost</label>
                             <div id="cost-input-container">
